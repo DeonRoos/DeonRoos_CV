@@ -9,7 +9,7 @@ orcid: 0000-0003-4866-7472
 twitter: DeonRoos88
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "I am a statistical biologist with experience and passion in teaching statistics, statistical consulting and developing statistical methodology for research. I have worked on a variety of research questions and data ranging from observational to experimental, empirical to theoretical, field based to lab-based. I am a proponent about scientific integrity, open data and code, and version control; This CV is version controlled and compiled with code."
+aboutme: "I am a statistical ecologist with experience and passion in teaching statistics, statistical consulting and developing statistical methodology for research. I have worked on a variety of research questions and data ranging from observational to experimental, empirical to theoretical, field based to lab-based. I am a proponent about scientific integrity, open data and code, and version control; This CV is version controlled and compiled with code."
 docname: CV
 output: vitae::awesomecv
 ---
@@ -92,7 +92,7 @@ works %>% #~author, ~title, ~year, ~where, ~doi,
   )
 ```
 
-# Contributions to academic life
+# Contributions to scientific life
 
 ```{r PARTICIPATION}
 partic %>% #~group, ~title, ~about, ~where,
