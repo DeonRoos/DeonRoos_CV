@@ -1,0 +1,97 @@
+---
+name: Deon
+surname: Roos
+position: "Senior Statistical Ecologist"
+address: "Animal and Plant Health Agency, York"
+phone: +44 7872 329 714
+email: "deonroos99@hotmail.com"
+twitter: DeonRoos88
+github: Deon88
+orcid: 0000-0003-4866-7472
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "I am a quantitative ecologist specialising in population dynamics but have worked on questions varying from movement ecology to remote sensing in marine environments. I code predominantly in R (with extensions to `stan`, `JAGs`, and to a limited extent `INLA` [or `inlabru`]) and have developed a number of shiny apps (ranging from simulating data [e.g. occupancy modelling data] to internal data input and processing apps). I have experience both in empirical research and in developing individual-based-models. I am particularly keen on data visulation and the science that underlays effective visual communication.\nI speak English and Afrikaans fluently and can have basic conversions in Spanish (Castillian)."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD in Ecology (Population dynamics of a rodent crop pest)", "2016-2021", "University of Aberdeen", "Aberdeen, Scotland",
+  "BSc Frist Class in Zoology", "2012-2016", "University of Aberdeen", "Aberdeen, Scotland"
+) %>% 
+  detailed_entries(
+    Degree, 
+    Year, 
+    Institution, 
+    Where)
+```
+
+# Employment
+
+```{r}
+tribble(
+  ~Year, ~Job, ~Loc, ~Desc,
+  
+  "2021-22", 
+  "Senior Statistical Ecologist", 
+  "Animal and Plant Health Agency", 
+  "Responsible for the statistical analysis for the wildlife department, including human mediated impacts on animal behaviour, abundance estimation, survival analysis (multi-state models).",
+  
+  "2021", 
+  "Research Fellow", 
+  "University of Aberdeen", 
+  "Responsible for statistical analysis of various invasive species in Latin America, including unmarked abundance estimation and individual based models of INNS.",
+  
+  "2020-21", 
+  "Teaching Fellow", 
+  "University of Aberdeen", 
+  "Course coordinator on Honour's population modelling course teaching abundance (DS, CMR), survival (CJS) and occupancy estimation and combining those estimates to predicty future trends using matrix models.",
+  
+  "2008-2012", 
+  "Operating Department Support Worker", 
+  "NHS Grampian", 
+  "Non-sterile assistant in surgeries") |> 
+  brief_entries(
+    what = Loc,
+    when = Year,
+    with = Job,
+    where = Desc,
+    .protect = TRUE
+  )
+```
+
+# Awards & prizes
+
+Best Student Presentation, University of Aberdeen; "Treavelling waves as a form of spatio-temporal asynchrony".
+
+Best Presentation, Iberian Vole Workshop; "Spatio temporal asynchrony in a cyclic vole species".
+
+Sir Maitland Mackie Scholarship. Awarded funds for research activities in agricultural setting.
+
+Zoology Award, University of Aberdeen. Awarded to outstanding Zoology students.
+
+People's Trust for Endangered Species Summer Internship. Awarded funds to carry out additional research following BSc thesis.
+
+Carnegie Summer Scholarship. Awarded funds to carry out data collection as part of BSc thesis.
+
+# Publications
+
+1. [__Roos D__](https://doi.org/10.1111/ele.14074), Caminero‐Saldaña C, Elston D, Mougeot F, García‐Ariza MC, Arroyo B, Luque-Larena JJ, Rojo-Revilla FJ, Lambin X (2022). From pattern to process? Dual travelling waves, with contrasting propagation speeds, best describe a self‐organised spatio‐temporal pattern in population growth of a cyclic rodents. Ecology Letters, 25(9): 1986-1998
+
+2. [Slingsby J](https://doi.org/10.3390/jmse9050484), Scott BE, Kregting L, McIlvenny, Wilson J, Couto A, __Roos D__, Yanez M, Williamson BJ (2021). Surface Characterisation of Kolk-Boils within Tidal Stream Environments Using UAV Imagery. Journal of Marine Science and Engineering, 9(5): 484
+
+3. [__Roos D__](https://doi.org/10.1016/j.agee.2018.11.013), Caminero‐Saldaña C, Arroyo B, Mougeot F, Luque-Larena JJ, Lambin X (2019). Unintentional effects of environmentally-friendly farming practices: Arising conflicts between zero-tillage and a crop pest, the common vole (Microtus arvalis). Agriculture, Ecosystems & Environment, 272:105-113
+
+4. Douglas D, __Roos D__, Couto A, Mancini F, Lusseau D (2020). [Intro2R](https://intro2r.com/)
+
+# References
+
+Available upon request.
